@@ -1,1 +1,2 @@
-ls -1ap | grep -vE '/(\.|(\.{2}))$' | LC_COLLATE=C sort -d | tr '\n' ',' | sed 's/,$/\n/'
+#!/bin/bash
+ls -map | sort
