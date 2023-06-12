@@ -1,2 +1,2 @@
 #!/bin/bash
-cat "$(command -v cat)" /etc/passwd <<< "" && cat "$(command -v cat)" /etc/hosts <<< ""
+cat /etc/passwd && echo && cat /etc/hosts
