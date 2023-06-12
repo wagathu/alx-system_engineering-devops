@@ -1,2 +1,3 @@
 #!/bin/bash
-ls -l ./1-listit
+ls -p | tr '\n' ',' | sed 's/,$/\n/'
+
